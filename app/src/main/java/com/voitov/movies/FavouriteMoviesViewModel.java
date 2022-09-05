@@ -8,8 +8,6 @@ import androidx.lifecycle.LiveData;
 
 import java.util.List;
 
-import io.reactivex.rxjava3.core.Completable;
-
 public class FavouriteMoviesViewModel extends AndroidViewModel {
     private MoviesDao moviesDao;
 

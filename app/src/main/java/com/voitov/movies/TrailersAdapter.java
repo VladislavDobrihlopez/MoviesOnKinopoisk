@@ -56,6 +56,7 @@ public class TrailersAdapter extends RecyclerView.Adapter<TrailersAdapter.Traile
 
     public static class TrailersViewHolder extends RecyclerView.ViewHolder {
         private final TextView textViewTrailerName;
+
         public TrailersViewHolder(@NonNull View itemView) {
             super(itemView);
             textViewTrailerName = itemView.findViewById(R.id.textViewTrailerName);

@@ -1,4 +1,5 @@
 package com.voitov.movies;
+
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;

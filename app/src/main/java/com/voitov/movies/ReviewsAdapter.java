@@ -6,7 +6,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
@@ -46,7 +45,7 @@ public class ReviewsAdapter extends RecyclerView.Adapter<ReviewsAdapter.ReviewsV
         String typeOfReviews = review.getType();
         int colorResId;
 
-        switch(typeOfReviews) {
+        switch (typeOfReviews) {
             case TYPE_POSITIVE:
                 colorResId = android.R.color.holo_green_light;
                 break;
